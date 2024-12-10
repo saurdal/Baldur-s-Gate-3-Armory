@@ -1,0 +1,63 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("images/header-pic.png");
+    height: 20vh;
+    margin: 0;
+    color: rgb(186, 178, 178);
+    padding: 50px;
+    font-size:200%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+main {
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(186, 178, 178);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.armor_card {
+    width: 500px;
+    text-align: center;
+}
+
+.armor_card_images {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+.armor_card img{
+    display: inline-block;
+    margin: 1px;
+    height: 400px;
+    width: auto;
+}
+
+.dye_options {
+    color: white;
+}
